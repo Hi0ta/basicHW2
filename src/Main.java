@@ -8,7 +8,7 @@ public class Main {
         int c = 2147483647;
         long d = 2_147_483_648L;
         float f = 0.876_543_2f;
-        double g = 0.321_321_321d;
+        double g = 0.321_321_321;
         char h = 62;
         System.out.println("Примеры типов переменных. ");
         System.out.println("Целочисленные: ");
@@ -22,10 +22,9 @@ public class Main {
         System.out.println("Символы: ");
         System.out.println (h);
 
-        //byte j = 10;
-        //boolean l = j < 7;
-        //System.out.println("Логические: ");
-        //System.out.println (l);
+        boolean l = false;
+        System.out.println("Логические: ");
+        System.out.println (l);
 
         // Задача 2
 
