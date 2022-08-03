@@ -38,8 +38,9 @@ public class Main {
       double boxer2 = 82.7;
       double boxersWeight = boxer1 + boxer2;
       System.out.println("Общий вес двух бойцов= " + boxersWeight + " кг");
-      double Weightdifference = boxer2 - boxer1;
-      System.out.println("Разница в весе между двумя бойцами= " + Weightdifference + " кг");
+      //double WeightDifference = boxer2 - boxer1;
+      double WeightDifference = Math.abs(boxer2 - boxer1);
+      System.out.println("Разница в весе между двумя бойцами= " + WeightDifference + " кг");
     }
 
     public static void task3() {
