@@ -1,41 +1,48 @@
 public class Main {
     public static void main(String[] args) {
+     task1();
+     task2();
+     task3();
+     task4();
+     task5();
+    }
 
+    public static void task1() {
         // Задача 1
+      byte a = 126;
+      short b = 32767;
+      int c = 2147483647;
+      long d = 2_147_483_648L;
+      float f = 0.876_543_2f;
+      double g = 0.321_321_321;
+      char h = 62;
+      System.out.println("Примеры типов переменных. ");
+      System.out.println("Целочисленные: ");
+      System.out.println (a);
+      System.out.println (b);
+      System.out.println (c);
+      System.out.println (d);
+      System.out.println("С плавающей точкой: ");
+      System.out.println (f);
+      System.out.println (g);
+      System.out.println("Символы: ");
+      System.out.println (h);
+      boolean l = false;
+      System.out.println("Логические: ");
+      System.out.println (l);
+    }
 
-        byte a = 126;
-        short b = 32767;
-        int c = 2147483647;
-        long d = 2_147_483_648L;
-        float f = 0.876_543_2f;
-        double g = 0.321_321_321;
-        char h = 62;
-        System.out.println("Примеры типов переменных. ");
-        System.out.println("Целочисленные: ");
-        System.out.println (a);
-        System.out.println (b);
-        System.out.println (c);
-        System.out.println (d);
-        System.out.println("С плавающей точкой: ");
-        System.out.println (f);
-        System.out.println (g);
-        System.out.println("Символы: ");
-        System.out.println (h);
+    public static void task2() {
+      // Задача 2
+      double boxer1 = 78.2;
+      double boxer2 = 82.7;
+      double boxersWeight = boxer1 + boxer2;
+      System.out.println("Общий вес двух бойцов= " + boxersWeight + " кг");
+      double Weightdifference = boxer2 - boxer1;
+      System.out.println("Разница в весе между двумя бойцами= " + Weightdifference + " кг");
+    }
 
-        boolean l = false;
-        System.out.println("Логические: ");
-        System.out.println (l);
-
-        // Задача 2
-
-        float boxer1 = 78.2f;
-        float boxer2 = 82.7f;
-        float boxersWeight = boxer1 + boxer2;
-        System.out.println("Общий вес двух бойцов= " + boxersWeight + " кг");
-
-        float Weightdifference = boxer2 - boxer1;
-        System.out.println("Разница в весе между двумя бойцами= " + Weightdifference + " кг");
-
+    public static void task3() {
 
         // Задача 3
 
@@ -52,7 +59,8 @@ public class Main {
         float weightBreakfastKg = weightBreakfastGr / 1000f;
         System.out.println("Вес спорт-завтрака= " + weightBreakfastGr + " грамм");
         System.out.println("Вес спорт-завтрака= " + weightBreakfastKg + " кг");
-
+    }
+    public static void task4() {
         // Задача 4
 
         int goalKg = 7;
@@ -65,7 +73,8 @@ public class Main {
         System.out.println("Спортсмену для похудения понадобится минимум " + numberOfDaysMin + " дней");
         int averageValueDays = (numberOfDaysMax + numberOfDaysMin) / 2;
         System.out.println("В среднем спортсмену для похудения необходим " + averageValueDays + " день");
-
+    }
+    public static void task5() {
         // Задача 5
 
         int salaryMashaInMonth = 67_760;
