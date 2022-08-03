@@ -57,7 +57,7 @@ public class Main {
         int eggs = 4;
         int eggsWeight = eggs * 70;
         int weightBreakfastGr = bananasWeight + milkGr + iceCreamWeight + eggsWeight;
-        float weightBreakfastKg = weightBreakfastGr / 1000f;
+        double weightBreakfastKg = weightBreakfastGr / (1000 * 1.0);
         System.out.println("Вес спорт-завтрака= " + weightBreakfastGr + " грамм");
         System.out.println("Вес спорт-завтрака= " + weightBreakfastKg + " кг");
     }
@@ -72,7 +72,7 @@ public class Main {
         int numberOfDaysMin = goalGr / everyDayMax;
         System.out.println("Спортсмену для похудения понадобится максимум " + numberOfDaysMax + " дней");
         System.out.println("Спортсмену для похудения понадобится минимум " + numberOfDaysMin + " дней");
-        int averageValueDays = (numberOfDaysMax + numberOfDaysMin) / 2;
+        double averageValueDays = (numberOfDaysMax + numberOfDaysMin) / (2 * 1.0);
         System.out.println("В среднем спортсмену для похудения необходим " + averageValueDays + " день");
     }
     public static void task5() {
