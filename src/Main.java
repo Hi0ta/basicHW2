@@ -133,7 +133,8 @@ public class Main {
     public static void task7() {
         int a = 5;
         int b = 7;
-        a = a * b / a;
+        a = b;
+        // a = a * b / a;
         b = (a + a + a + a + a) / a;
         System.out.println("a=" + a + ", b=" + b);
     }
